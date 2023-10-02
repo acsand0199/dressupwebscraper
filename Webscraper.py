@@ -18,10 +18,10 @@ def main():
 
             price_float = float(price) / 100 # dividing by 100 converts a value for instance of 1200 to 12.00 to get correct values
 
-            if price_float < 40:
-                print("Go check the site.  There is a good deal.")
+            if price_float < 30:
+                print("Good deal")
             else:
-                print("No good deals at the moment.")
+                print("Not a good deal.")
     else:
         print("Failed to load the page.")
 
